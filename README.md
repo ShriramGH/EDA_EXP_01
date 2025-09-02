@@ -123,26 +123,78 @@ plt.xlabel("Matches Hosted")
 plt.ylabel("Venue")
 plt.show()
 ```
+```py
+# Toss decision patterns
+toss_decision = matches['toss_decision'].value_counts()
+
+plt.figure(figsize=(6,4))
+sns.barplot(x=toss_decision.index, y=toss_decision.values, palette="Set2")
+plt.title("Patterns in Toss Decisions (Bat vs Field)")
+plt.xlabel("Decision")
+plt.ylabel("Count")
+plt.show()
+print("Name: Shriram S")
+print("Register No: 212222240098")
+```
+```py
+# Winning trends of teams over seasons
+winning_trends = matches.groupby(['season','winner']).size().unstack().fillna(0)
+
+# Pick top 4 teams overall
+top_teams = matches['winner'].value_counts().head(4).index
+winning_trends[top_teams].plot(figsize=(10,6), marker='o')
+
+plt.title("Winning Trends of Top Teams Across Seasons")
+plt.xlabel("Season")
+plt.ylabel("Wins")
+plt.legend(title="Teams")
+plt.show()
+print("Name: Shriram S")
+print("Register No: 212222240098")
+```
+```py
+venue_counts = matches['venue'].value_counts()
+
+plt.figure(figsize=(10,6))
+sns.barplot(y=venue_counts.index[:10], x=venue_counts.values[:10], palette="coolwarm")
+plt.title("Top 10 Stadiums by Matches Hosted")
+plt.xlabel("Matches Hosted")
+plt.ylabel("Stadium")
+plt.show()
+print("Name: Shriram S")
+print("Register No: 212222240098")
+```
 
   ## Output
 
 ### 1. Top 5 Winning Teams
 <img width="388" height="218" alt="image" src="https://github.com/user-attachments/assets/b5b2aa58-04b9-44e8-8f91-057f265f12da" />
+
 <img width="695" height="393" alt="image" src="https://github.com/user-attachments/assets/2ecf56be-56d4-4781-bc56-4cd15bf828da" />
 
 ### 2. Toss decision preferences (bat vs field).
 <img width="282" height="149" alt="image" src="https://github.com/user-attachments/assets/e5684d3a-b07b-496d-977c-add12f1ddf9d" />
+
 <img width="521" height="393" alt="image" src="https://github.com/user-attachments/assets/5c34ced3-d02d-4d71-b7fc-267917633096" />
 
 ### 3. Matches per venue
 <img width="482" height="240" alt="image" src="https://github.com/user-attachments/assets/8cc8351c-ad78-48a1-ba98-5c568685ef32" />
+
 <img width="964" height="393" alt="image" src="https://github.com/user-attachments/assets/c7041364-a00a-4fdd-89ab-7f140ce48069" />
 
-### 4. 
+### 4. Patterns in Toss Decision
+<img width="690" height="549" alt="image" src="https://github.com/user-attachments/assets/cf31a8e0-d25b-4359-bd35-76c2b923b0f7" />
+
+### 5. Teams with consistent winning trends
+<img width="1053" height="729" alt="image" src="https://github.com/user-attachments/assets/4991df15-366e-4de1-ae33-2c55d137e6c8" />
+
+### 6. Stadiums hosting maximum matches.
+<img width="1388" height="730" alt="image" src="https://github.com/user-attachments/assets/50d99e35-ecf0-4b5b-9c93-8e9eb733c07e" />
+
 
  ## Result
-  This experiment is executed successfully
+ Exploratory Data Analysis (EDA) on the IPL matches dataset is executed successfully.
 
 
 
-Highlight the stadiums hosting maximum matches.
+
