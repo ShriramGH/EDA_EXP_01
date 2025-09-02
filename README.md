@@ -4,7 +4,7 @@
 
 To perform Exploratory Data Analysis (EDA) on the IPL matches dataset and derive insights about matches per season, winning teams, toss decisions, and top venues.
 
-**Algorithm / Procedure:**
+## Algorithm / Procedure:**
 
 **1.Import Libraries**
 
@@ -51,13 +51,14 @@ To perform Exploratory Data Analysis (EDA) on the IPL matches dataset and derive
   Identify teams with consistent winning trends.
   
   
-  **Program**
+  ## Program
+  
   #Write your code here
 
-  **Output**
+  ## Output
   #Add necessary output screenhoets
 
- ** Result**
+ ## Result**
   This experiment is executed successfully
 
 
