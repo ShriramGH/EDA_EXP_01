@@ -173,14 +173,12 @@ print("Register No: 212222240098")
 <img width="695" height="393" alt="image" src="https://github.com/user-attachments/assets/2ecf56be-56d4-4781-bc56-4cd15bf828da" />
 
 ### 2. Toss decision preferences (bat vs field).
+<img width="521" height="393" alt="image" src="https://github.com/user-attachments/assets/5c34ced3-d02d-4d71-b7fc-267917633096" />
 <img width="282" height="149" alt="image" src="https://github.com/user-attachments/assets/e5684d3a-b07b-496d-977c-add12f1ddf9d" />
 
-<img width="521" height="393" alt="image" src="https://github.com/user-attachments/assets/5c34ced3-d02d-4d71-b7fc-267917633096" />
-
 ### 3. Matches per venue
-<img width="482" height="240" alt="image" src="https://github.com/user-attachments/assets/8cc8351c-ad78-48a1-ba98-5c568685ef32" />
-
 <img width="964" height="393" alt="image" src="https://github.com/user-attachments/assets/c7041364-a00a-4fdd-89ab-7f140ce48069" />
+<img width="482" height="240" alt="image" src="https://github.com/user-attachments/assets/8cc8351c-ad78-48a1-ba98-5c568685ef32" />
 
 ### 4. Patterns in Toss Decision
 <img width="690" height="549" alt="image" src="https://github.com/user-attachments/assets/cf31a8e0-d25b-4359-bd35-76c2b923b0f7" />
